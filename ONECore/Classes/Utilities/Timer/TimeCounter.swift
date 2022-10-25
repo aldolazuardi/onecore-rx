@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol TimeCounterDelegate: class {
+public protocol TimeCounterDelegate: AnyObject {
     func timeCounterDidStart(ticker: TimeInterval)
     func timeCounterDidStop(ticker: TimeInterval)
     func timeCounterDidChanged(ticker: TimeInterval)

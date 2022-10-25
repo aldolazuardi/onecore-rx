@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol NestedTableViewDelegate: class {
+public protocol NestedTableViewDelegate: AnyObject {
     func nestedTableViewDidChangedLoading(_ isLoading: Bool)
     func nestedTableViewDidChangedState()
 }

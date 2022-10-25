@@ -7,6 +7,6 @@
 
 import Foundation
 
-@objc public protocol CameraViewControllerDelegate: class {
+@objc public protocol CameraViewControllerDelegate: AnyObject {
     func cameraViewControllerDidTakePicture(originalImage: UIImage, croppedImage: UIImage)
 }

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-public protocol ImagePickerDelegate: class {
+public protocol ImagePickerDelegate: AnyObject {
     func imagePickerDidSelect(image: UIImage, fileSizeInKB: Int)
 }
 

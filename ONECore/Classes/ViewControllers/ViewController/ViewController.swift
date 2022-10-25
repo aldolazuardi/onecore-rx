@@ -36,6 +36,7 @@ open class ViewController: UIViewController {
     }
     open func load() {}
     open func loadMore() {}
+    open func bindViewModel() {}
 
     override open func viewDidLoad() {
         super.viewDidLoad()

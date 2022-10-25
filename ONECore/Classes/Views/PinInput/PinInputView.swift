@@ -12,7 +12,7 @@ public enum PinInputType {
     case alphanumeric
 }
 
-public protocol PinInputViewDelegate: class {
+public protocol PinInputViewDelegate: AnyObject {
     func pinInputViewDidChangedValue(_ value: String)
 }
 

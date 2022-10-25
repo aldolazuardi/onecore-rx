@@ -40,6 +40,7 @@ open class TableViewController: ViewController, TableViewContainerProtocol {
         createFooterView()
         createContentView()
         setupConstraint()
+        bindViewModel()
     }
 
     override open func viewWillAppear(_ animated: Bool) {

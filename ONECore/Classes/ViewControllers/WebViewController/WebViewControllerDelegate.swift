@@ -7,4 +7,4 @@
 
 import Foundation
 
-public protocol WebViewControllerDelegate: class {}
+public protocol WebViewControllerDelegate: AnyObject {}

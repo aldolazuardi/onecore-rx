@@ -53,7 +53,7 @@ open class TableView: View {
         }
         tableView = UITableView(frame: self.bounds, style: UITableView.Style.plain)
         tableView.delegate = self
-        tableView.dataSource = self
+//        tableView.dataSource = self
         tableView.backgroundColor = .clear
         addSubview(tableView)
         createTableViewConstraint(inset: tableViewInset)

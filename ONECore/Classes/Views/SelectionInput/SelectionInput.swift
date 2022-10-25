@@ -10,7 +10,7 @@ import UIKit
 
 public typealias SelectionInputDidChangeHandler = (_ selectionInput: SelectionInput) -> Void
 
-public protocol SelectionInputDelegate: class {
+public protocol SelectionInputDelegate: AnyObject {
     func selectionInputDidEndEditing(_ selectionInput: SelectionInput)
 }
 
